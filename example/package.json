@@ -12,7 +12,8 @@
 	},
 	"scripts": {
 		"build": "webpack",
-		"serve": "webpack serve"
+	 	"serve": "webpack serve",
+    "preinstall":"cd .. && npm install && npm build"
 	},
 	"dependencies": {
 		"gamepad-wrapper": "^1.2.0",
